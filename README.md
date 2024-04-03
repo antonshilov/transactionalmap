@@ -2,7 +2,9 @@
 
 Main classes
 are [ConcurrentTransactionalKeyValueStore](src/main/kotlin/com/antonshillov/transactionalkv/store/ConcurrentTransactionalKeyValueStore.kt)
-and [SynchronousTransactionalKeyValueStore](src/main/kotlin/com/antonshillov/transactionalkv/store/SynchronousTransactionalKeyValueStore.kt)
+and [SynchronousTransactionalKeyValueStore](src/main/kotlin/com/antonshillov/transactionalkv/store/SynchronousTransactionalKeyValueStore.kt).
+
+SynchronousTransactionalKeyValueStore is only for illustration purposes to show how it fails in multithreading case
 
 ## Run
 
